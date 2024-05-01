@@ -54,17 +54,43 @@ set.seed(42)
 
 ### Preprocessing
 
+Filter by "data scientist" job title
+```{r}
+job_ds <- ds_sal %>%
+  filter(job_title == "Data Scientist")
+```
 
-
+Filter data scientists by "US" company location
+```{r}
+job_ds_loc_us <- job_ds %>%
+  filter(company_location == "US")
+```
 
 
 
 
 ### Visualization
 
+All salaries in USD
+```{r}
+ds_sal %>%
+  ggplot() +
+  geom_histogram(aes(x = salary_in_usd))
+```
 
+"data scientist" salaries in USD
+```{r}
+job_ds %>%
+  ggplot() +
+  geom_histogram(aes(x = salary_in_usd))
+```
 
-
+data scientists in the US in USD
+```{r}
+job_ds_loc_us %>%
+  ggplot() +
+  geom_histogram(aes(x = salary_in_usd))
+```
 
 
 
