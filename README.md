@@ -1,7 +1,7 @@
 # data.science.salaries
 personal project on data science salaries
 
-# Final Project
+# Project
 
 ## Summary
 
@@ -299,7 +299,6 @@ The following are additional guidelines for your Final Project submission:
     Do not speculate, instead support your claims and explanations using data and analysis.
     Avoid self-narration or writing about how you felt or what you were thinking as you complete each question, instead write as if you are constructing a step-by-step tutorial for others to use.
 
-*   **Late submissions for the final project will not be accepted, no exceptions.**
 
 
 ## Checklist
