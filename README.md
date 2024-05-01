@@ -1,11 +1,10 @@
 # data.science.salaries
 personal project on data science salaries
 
-# Final Project: The College Scorecard dataset
+# Final Project
 
 ## Summary
 
-For the final project, you will analyze the U.S. Department of Education's *College Scorecard* dataset.
 
 Your task is to come up with an interesting question to ask about the dataset which can then be answered using:
 
@@ -17,37 +16,13 @@ The rest of these instructions describe the dataset and what should go into your
 
 ## About the Dataset
 
-You  will be working with the *College Scorecard* dataset started by The Obama Administration in September 2015. Each row in this dataset contains information about a college in the USA.
-
-The dataset is quite large (13.5 MB), and so cannot be distributed via GitHub. **You need to download the dataset and upload it** to RStudio's folder for this project. Once you have done so, it will loaded by default in the setup block of the `final_project.Rmd` file where you will write your   report (the variable name of the dataset is `college`).
-
-Because the dataset is so large, you will find it almost impossible to open in a tab in RStudio. Please **do not** try to open the `college` dataframe in RStudio - your RStudio will freeze up. Instead, you will have to rely on a table describing all the columns in the dataset. This is called a *data dictionary*, and is available as a Google Docs spreadsheet here: <https://docs.google.com/spreadsheets/d/1YrYiJ-J9rLhs4Qf5OCvHGMyUFyMKOMtMuGmpyt47mEY/edit?usp=sharing>.
-
-Each row in the *data dictionary tab* of the spreadsheet describes a column in the original dataset (i.e. the name of the column and a desciption of the data contained in that column).
 
 You will have to look through the data dictionary to understand the meaning of the variables, and this should be your starting point *before* you start running an analysis on the dataset.
 
-If you wish to take a look at the raw `college` data in table format, you should try saving just the first few rows as a new variable, and opening that in a tab in RStudio, e.g.:
 
 ```r
-college_first6rows <- head(college)
+data_set_first6rows <- head(data_set)
 ```
-
-The `college` dataset includes data on a huge range of issues, including:
-
-* location
-* demographics
-* admission standards
-* tuition rates
-* graduation rates
-* student loans
-* outcomes after graduation
-* ... and many more (almost 2000 different variables!)
-
-
-**This is a large dataset that that contains millions of individual cells.**
-**As such, there is no one right way to approach this project.**
-**There are many different avenues that you can take, so have fun with it!**
 
 
 ## The final project report
