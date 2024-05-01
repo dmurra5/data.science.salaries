@@ -363,14 +363,6 @@ The following are additional guidelines for your Final Project submission:
 Grades for the final project will be based on the correctness and readability of your R code, how well your report is written (the report should be structured, coherent, and follow the standard rules of spelling and grammar), and how well you answered your question of interest using your visualizations, analysis, and written answers.
 
 
-## How to submit
-
-To submit:
-
-1.  Commit and push your code to GitHub.
-
-2.  Knit your Markdown document to the PDF format, export (download) the PDF file from RStudio Server, and then upload it to *Final Project* posting on Blackboard.
-
 ## Cheatsheets
 
 You are encouraged to review and keep the following cheatsheets handy while working on the final project:
