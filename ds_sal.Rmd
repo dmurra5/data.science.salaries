@@ -50,3 +50,41 @@ ds_sal <- read.csv("DataScience_salaries_2024.csv") %>%
 # Set seed
 set.seed(42)
 ```
+
+
+### Preprocessing
+
+
+
+
+
+
+
+### Visualization
+
+
+
+
+
+
+
+### Summary Statistics
+
+
+
+
+
+
+
+### Data Analysis
+
+
+
+
+
+
+
+### Conclusion
+
+
+
