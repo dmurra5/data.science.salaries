@@ -62,15 +62,8 @@ For this project, you have to come up with a questions that you can ask about th
   
     If you have taken statistics classes before, you may want to stretch yourself and ask a different type of question. Please feel free to reach out to me if you are comfortable going beyond the statistics we have covered in this class, and want to ask a question that doesn't fit into either of the structures suggested above.
   
-2. Each row in the dataset is a college in the USA. Therefore **your question must be about colleges, not about students**. For example, you cannot ask "Is there a relationship between graduation rate and ethnicity of a student", because we do not have data on students. However, you could ask "Is there a relationship between the % of non-white students in a college and the graduation rate of each college?" (however, you may not use this question - I want you to come up with your own).
 
-
-3. Your question should be somewhat interesting. Ask yourself, "Would a newspaper publish an article on this topic?" (In contrast, you should not just pick two random continuous variables and throw them into a linear model to see what falls out...)
-
-**Once you have a question ready, you need to propose it to your group members:**
-
-* In-person sections will do this in class (you will also have a group channel in Slack, and the final list of questions you generate should be posted here).
-* Online sections will post and discuss their questions in a group channel in Slack.
+   Your question should be somewhat interesting. Ask yourself, "Would a newspaper publish an article on this topic?" (In contrast, you should not just pick two random continuous variables and throw them into a linear model to see what falls out...)
 
 When proposing a question you need to provide your group members the following information:
 
@@ -91,22 +84,6 @@ An example of such a message (using our "bad" question from before) might be:
 >
 > I think this question is interesting because ...
 
-**After you have proposed your own question, you need to provide feedback on your group members questions.**
-
-You must respond to at least one question proposed by another group member with:
-
-* If their question is missing any information, then please point this out (e.g. "You did not specify whether this should use a linear model or a hypothesis test"). You can also supply the information yourself if you wish (e.g. "Since this question has two continuous variables, I think it would need a linear model").
-
-* If you disagree with something in their proposal, then (politely) point this out (e.g. "I think this question would need inference instead of a linear model since both variables are categorical.")
-
-* If the question does not seem to pass one of the criteria listed above, then point this out and explain why. (And, optionally, give a suggestion as to how the question could be improved.)
-
-* If you have something to add, then please do so! (E.g. another reason why this might be an interesting question to ask, in addition to the original one)
-
-Once your group has added its questions to its Slack channel, then please also post a quick message in that channel stating which question you will investigate for the rest of the project. (You can pick a question proposed by anyone in your group, including yourself, and multiple people in your group can pick the same question if they wish.)
-
-Your instructor may veto or require you to adjust any questions that do not meet the outlined criteria or that cannot be appropriately justified. Sending these messages in Slack and interacting with your group members in a timely manner **before the Milestone 1 deadline** will be counted as part of your Final Project grade.
-
 
 
 ### Preprocessing section
@@ -115,7 +92,7 @@ This dataset is structured and mostly clean, but there is still some *data prepr
 At a minimum, there are three clear tasks to complete and document in this first section of the R Markdown file before you continue on to the **Visualization** section:
 
 1.  After you have decided on the question you will answer, figure out which columns in the dataset you need to answer the questions.
-    Then, extract those columns using `select` and save the reduced dataset to another variable, for example `college_reduced`.
+    Then, extract those columns using `select` and save the reduced dataset to another variable, for example `ds_reduced`.
     
 2.  The column names are shortened abbreviations, and should be made more human-readable using the `rename` function.
     Use the data dictionary, to help you figure out what the abbreviations mean.
